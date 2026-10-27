@@ -58,6 +58,7 @@ flowchart LR
 git clone https://github.com/lconfz/find-your-thing.git
 
 # 复制到 Claude Code skills 目录
+mkdir -p ~/.claude/skills
 cp -r find-your-thing ~/.claude/skills/
 ```
 
@@ -67,14 +68,19 @@ cp -r find-your-thing ~/.claude/skills/
 git clone https://github.com/lconfz/find-your-thing.git
 
 # 复制到 Codex skills 目录
-cp -r find-your-thing ~/.codex/skills
+mkdir -p ~/.agents/skills
+cp -r find-your-thing ~/.agents/skills/
 ```
 
-### 推荐提问方式
+### 开始使用
+
+装好后直接说说你现在的状态就行——问题匹配到技能的 `description` 时会自动加载；在 Claude Code 中也可以用斜杠命令显式调用：
 
 ```text
 @find-your-thing 我想找到自己真正想做的事是什么？
 ```
+
+整个过程一次只问一个问题，可以分几次做完，也可以随时中断。
 
 
 
@@ -121,6 +127,38 @@ flowchart LR
     A --> B
     B --> C
 ```
+
+## How to Use
+
+### Install for Claude Code
+
+```bash
+git clone https://github.com/lconfz/find-your-thing.git
+
+# Copy into the Claude Code skills directory
+mkdir -p ~/.claude/skills
+cp -r find-your-thing ~/.claude/skills/
+```
+
+### Install for Codex
+
+```bash
+git clone https://github.com/lconfz/find-your-thing.git
+
+# Copy into the Codex skills directory
+mkdir -p ~/.agents/skills
+cp -r find-your-thing ~/.agents/skills/
+```
+
+### Get Started
+
+After installing, just describe where you are—the skill loads automatically when your request matches its `description`, or, in Claude Code, invoke it explicitly with a slash command:
+
+```text
+@find-your-thing I want to figure out what I truly want to do.
+```
+
+It asks one question at a time, can be spread across several sessions, and you can stop at any point.
 
 ## License
 
