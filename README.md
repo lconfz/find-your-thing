@@ -50,6 +50,10 @@ flowchart LR
     B --> C
 ```
 
+## 许可证
+
+本项目基于 MIT 许可证开源 - 详情请参阅 [LICENSE](LICENSE) 文件。
+
 <a id="en"></a>
 
 ## Find What You Want To Do
@@ -90,9 +94,9 @@ flowchart LR
     B --> C
 ```
 
-# License
+## License
 
-[MIT](LICENSE)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 <!-- 底部也可以加一个返回顶部的链接 -->
 <div align="center">
