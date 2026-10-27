@@ -50,6 +50,34 @@ flowchart LR
     B --> C
 ```
 
+## 如何使用
+
+### Claude Code 安装
+
+```bash
+git clone https://github.com/lconfz/find-your-thing.git
+
+# 复制到 Claude Code skills 目录
+cp -r find-your-thing ~/.claude/skills/
+```
+
+### Codex 安装
+
+```bash
+git clone https://github.com/lconfz/find-your-thing.git
+
+# 复制到 Codex skills 目录
+cp -r find-your-thing ~/.codex/skills
+```
+
+### 推荐提问方式
+
+```text
+@find-your-thing 我想找到自己真正想做的事是什么？
+```
+
+
+
 ## 许可证
 
 本项目基于 MIT 许可证开源 - 详情请参阅 [LICENSE](LICENSE) 文件。
