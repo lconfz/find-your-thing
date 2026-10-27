@@ -163,8 +163,3 @@ It asks one question at a time, can be spread across several sessions, and you c
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-<!-- 底部也可以加一个返回顶部的链接 -->
-<div align="center">
-  <a href="#">⬆️ Back to Top</a>
-</div>
